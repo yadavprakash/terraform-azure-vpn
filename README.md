@@ -113,10 +113,10 @@ module "vpn" {
 This example demonstrates how to create various AZURE resources using the provided modules. Adjust the input values to suit your specific requirements.
 
 # Examples
-For detailed examples on how to use this module, please refer to the [examples](https://github.com/opsstation/terraform-azure-vnet-peering/blob/master/_example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [examples](https://github.com/opsstation/terraform-azure-vpn/blob/master/_example) directory within this repository.
 
 # License
-This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/opsstation/terraform-azure-vnet-peering/blob/master/LICENSE) file for more details.
+This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/opsstation/terraform-azure-vpn/blob/master/LICENSE) file for more details.
 
 # Authors
 Your Name
