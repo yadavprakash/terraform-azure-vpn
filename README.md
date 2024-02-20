@@ -1,6 +1,6 @@
-# Terraform-azure-vnet-peering
+# Terraform-azure-vpn
 
-# Terraform Azure Cloud Vnet-Peering Module
+# Terraform Azure Cloud Vpn Module
 
 ## Table of Contents
 - [Introduction](#introduction)
