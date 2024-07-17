@@ -25,7 +25,7 @@ for creating AZURE resources, and you can customize the inputs as needed. Below 
 ```hcl
 module "vpn" {
   depends_on          = [module.vnet]
-  source              = "git::https://github.com/opsstation/terraform-azure-vpn.git?ref=v1.0.1"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git?ref=v1.0.1"
   name                = local.name
   environment         = local.environment
   vpn_ad              = true
@@ -49,7 +49,7 @@ module "vpn" {
 
 ```hcl
 module "vpn" {
-  source              = "git::https://github.com/opsstation/terraform-azure-vpn.git?ref=v1.0.1"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git?ref=v1.0.1"
   depends_on           = [module.vnet]
   name                 = local.name
   environment          = local.environment
@@ -89,7 +89,7 @@ EOF
 ```hcl
 module "vpn" {
   depends_on          = [module.vnet]
-  source              = "git::https://github.com/opsstation/terraform-azure-vpn.git?ref=v1.0.1"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git?ref=v1.0.1"
   name                = "site-to-site"
   environment         = local.environment
   sts_vpn             = true
@@ -113,14 +113,14 @@ module "vpn" {
 This example demonstrates how to create various AZURE resources using the provided modules. Adjust the input values to suit your specific requirements.
 
 # Examples
-For detailed examples on how to use this module, please refer to the [examples](https://github.com/opsstation/terraform-azure-vpn/blob/master/example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [examples](https://github.com/yadavprakash/terraform-azure-vpn/blob/master/example) directory within this repository.
 
 # License
-This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/opsstation/terraform-azure-vpn/blob/master/LICENSE) file for more details.
+This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/yadavprakash/terraform-azure-vpn/blob/master/LICENSE) file for more details.
 
 # Authors
 Your Name
-Replace **MIT** and **OpsStation** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
+Replace **MIT** and **yadavprakash** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
