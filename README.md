@@ -25,7 +25,7 @@ for creating AZURE resources, and you can customize the inputs as needed. Below 
 ```hcl
 module "vpn" {
   depends_on          = [module.vnet]
-  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git?ref=v1.0.1"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git"
   name                = local.name
   environment         = local.environment
   vpn_ad              = true
@@ -49,7 +49,7 @@ module "vpn" {
 
 ```hcl
 module "vpn" {
-  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git?ref=v1.0.1"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git"
   depends_on           = [module.vnet]
   name                 = local.name
   environment          = local.environment
@@ -89,7 +89,7 @@ EOF
 ```hcl
 module "vpn" {
   depends_on          = [module.vnet]
-  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git?ref=v1.0.1"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-vpn.git"
   name                = "site-to-site"
   environment         = local.environment
   sts_vpn             = true
